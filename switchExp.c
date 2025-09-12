@@ -39,12 +39,12 @@
 
 int main(){
 
-    int letter = 'M';
+    int letter = 't';
     
      
 
      switch(letter){
-         case 't':
+         case 'M':
          printf("Monday");
          break;
          case 'T':

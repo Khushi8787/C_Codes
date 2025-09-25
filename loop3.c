@@ -1,19 +1,20 @@
 #include<stdio.h>
 int main(){
-    int y= 8;
-    /*while( y<= 10){
-        printf(" hey \n", y);
-        y++;
-    }*/
-
-   /* do{
-        printf(" hey khushi  \n" );
-        y++;
-    }while ( y<= 15);*/
-
-    for( y=8 ;y <= 15 ; y++){
-        printf("%d \n", y);
-
-    }
+ int r=1;
+ //while loop
+/* while(r<5){
+    printf("hello khushi %d\n",r);
+    r++;
+ }*/
+ // do while
+ /*do{
+    printf(" %d\n",r*6);
+    r++;
+ }while(r<=10);
+ */
+ //for
+ for( r=1; r<=10; r++){
+    printf(" %d\n",r* 8);
+ }
 
 }

@@ -6,5 +6,5 @@ int main(){
     printf("enter any value");
     scanf("%d",&num );
     printf("the value of number is %x\n",*p);
-    printf("the value of first no.: %d\n",a);
+    printf("the value of first no.: %d\n",a); // no link btw num and 'a'
     }

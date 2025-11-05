@@ -13,7 +13,7 @@ printf("%d\n",b);
 p =&b;
 int **a;
 a= &p;
-printf("%d",a);
-    
 
+printf("address =%u",a);
+    
 }

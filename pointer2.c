@@ -5,6 +5,6 @@ int main() {  //main function
     printf("Value of num using pointer: %d\n",*ptr);
     
     *ptr = 28;
-    printf("New value of num after dereferencing: %d\n", num);
+    printf("New value of num after dereferencing: %d\n", *ptr);
     return 0;
 }
